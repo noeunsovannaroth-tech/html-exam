@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Create Account student</title>
+<link rel="stylesheet" href="slyle.css"
+</head>
+<body>
+
+  <div class="card">
+    <h1>Create Account</h1>
+    <p class="subtitle">Sign up to get started</p>
+
+    <form action="#" method="post">
+      <div class="field">
+        <input type="text" name="fullname" placeholder="Full Name" required>
+      </div>
+      <div class="field">
+        <input type="email" name="email" placeholder="Email Address" required>
+      </div>
+      <div class="field">
+        <input type="password" name="password" placeholder="Password" required>
+      </div>
+      <div class="field">
+        <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+      </div>
+
+      <button type="submit" class="create-btn">Create Account</button>
+    </form>
+
+    <p class="login-link">Already have an account? <a href="#">Login</a></p>
+  </div>
+
+</body>
+</html>
